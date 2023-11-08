@@ -100,7 +100,7 @@ function Register() {
         setSuccessMessage("Registration successful");
         setTimeout(() => {
           setSuccessMessage("");
-          navigate("/login");
+          navigate("/");
         }, 3000);
       } else {
         const errorResponse = await response.json();
